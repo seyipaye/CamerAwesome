@@ -53,8 +53,8 @@ class _AwesomeFilterSelectorState extends State<AwesomeFilterSelector> {
         color: widget.filterListBackgroundColor,
         child: Stack(
           children: [
-            carousel.CarouselSlider(
-              options: carousel.CarouselOptions(
+            CarouselSlider(
+              options: CarouselOptions(
                 height: 60.0,
                 initialPage: _selected,
                 onPageChanged: (index, reason) {

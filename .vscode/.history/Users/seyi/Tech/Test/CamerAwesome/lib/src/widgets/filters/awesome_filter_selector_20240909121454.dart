@@ -54,7 +54,7 @@ class _AwesomeFilterSelectorState extends State<AwesomeFilterSelector> {
         child: Stack(
           children: [
             carousel.CarouselSlider(
-              options: carousel.CarouselOptions(
+              options: CarouselOptions(
                 height: 60.0,
                 initialPage: _selected,
                 onPageChanged: (index, reason) {
