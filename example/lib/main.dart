@@ -1,8 +1,8 @@
 import 'dart:io';
 
 // import 'package:better_open_file/better_open_file.dart';
-import 'package:camerawesome/camerawesome_plugin.dart';
-import 'package:camerawesome/pigeon.dart';
+import 'package:camerawesome_seyi/camerawesome_plugin.dart';
+import 'package:camerawesome_seyi/pigeon.dart';
 import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
 import 'utils/file_utils.dart';

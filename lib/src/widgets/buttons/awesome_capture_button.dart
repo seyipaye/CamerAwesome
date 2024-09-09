@@ -1,7 +1,7 @@
 // ignore_for_file: library_private_types_in_public_api
 
-import 'package:camerawesome/src/orchestrator/analysis/analysis_controller.dart';
-import 'package:camerawesome/src/orchestrator/states/camera_state.dart';
+import 'package:camerawesome_seyi/src/orchestrator/analysis/analysis_controller.dart';
+import 'package:camerawesome_seyi/src/orchestrator/states/camera_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

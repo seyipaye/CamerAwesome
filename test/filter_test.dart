@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:camerawesome/src/photofilters/filters/preset_filters.dart';
+import 'package:camerawesome_seyi/src/photofilters/filters/preset_filters.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:image/image.dart';
 

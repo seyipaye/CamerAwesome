@@ -1,6 +1,6 @@
-import 'package:camerawesome/camerawesome_plugin.dart';
-import 'package:camerawesome/pigeon.dart';
-import 'package:camerawesome/src/orchestrator/file/builder/capture_request_builder.dart';
+import 'package:camerawesome_seyi/camerawesome_plugin.dart';
+import 'package:camerawesome_seyi/pigeon.dart';
+import 'package:camerawesome_seyi/src/orchestrator/file/builder/capture_request_builder.dart';
 
 typedef CaptureRequestBuilder = Future<CaptureRequest> Function(
     List<Sensor> sensors);

@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:camerawesome/camerawesome_plugin.dart';
-import 'package:camerawesome/pigeon.dart';
-import 'package:camerawesome/src/widgets/preview/awesome_preview_fit.dart';
+import 'package:camerawesome_seyi/camerawesome_plugin.dart';
+import 'package:camerawesome_seyi/pigeon.dart';
+import 'package:camerawesome_seyi/src/widgets/preview/awesome_preview_fit.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';

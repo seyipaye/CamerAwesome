@@ -1,11 +1,11 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:camerawesome/camerawesome_plugin.dart';
-import 'package:camerawesome/pigeon.dart';
-import 'package:camerawesome/src/logger.dart';
-import 'package:camerawesome/src/orchestrator/adapters/pigeon_sensor_adapter.dart';
-import 'package:camerawesome/src/orchestrator/models/camera_physical_button.dart';
+import 'package:camerawesome_seyi/camerawesome_plugin.dart';
+import 'package:camerawesome_seyi/pigeon.dart';
+import 'package:camerawesome_seyi/src/logger.dart';
+import 'package:camerawesome_seyi/src/orchestrator/adapters/pigeon_sensor_adapter.dart';
+import 'package:camerawesome_seyi/src/orchestrator/models/camera_physical_button.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter/services.dart';
 

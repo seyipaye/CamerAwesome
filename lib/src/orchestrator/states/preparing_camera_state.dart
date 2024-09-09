@@ -1,11 +1,11 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:camerawesome/camerawesome_plugin.dart';
-import 'package:camerawesome/pigeon.dart';
-import 'package:camerawesome/src/orchestrator/camera_context.dart';
-import 'package:camerawesome/src/orchestrator/exceptions/camera_states_exceptions.dart';
-import 'package:camerawesome/src/orchestrator/models/camera_physical_button.dart';
+import 'package:camerawesome_seyi/camerawesome_plugin.dart';
+import 'package:camerawesome_seyi/pigeon.dart';
+import 'package:camerawesome_seyi/src/orchestrator/camera_context.dart';
+import 'package:camerawesome_seyi/src/orchestrator/exceptions/camera_states_exceptions.dart';
+import 'package:camerawesome_seyi/src/orchestrator/models/camera_physical_button.dart';
 
 /// When is not ready
 class PreparingCameraState extends CameraState {

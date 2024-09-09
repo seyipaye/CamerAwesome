@@ -48,6 +48,7 @@ CameraAwesomeBuilder.previewOnly(
 ```
 
 Let's go through this code snippet:
+
 1. We use the `previewOnly()` constructor since we don't need to take pictures or videos. We only need to analyze images.
 2. The `AnalysisConfig` for this example includes a `maxFramesPerSecond` to a low value since we only need to read barcodes. It doesn't make sense to read 10s of barcodes per second. It reduces the number of calculations greatly.
 3. We set the `onImageForAnalysis` callback to our `_processImageBarcode` method.
@@ -66,7 +67,7 @@ Future _processImageBarcode(AnalysisImage img) async {
   try {
     // 2.
     var recognizedBarCodes = await _barcodeScanner.processImage(inputImage);
-    // 3.   
+    // 3.
     for (Barcode barcode in recognizedBarCodes) {
       debugPrint("Barcode: [${barcode.format}]: ${barcode.rawValue}");
       // 4.
@@ -77,7 +78,9 @@ Future _processImageBarcode(AnalysisImage img) async {
   }
 }
 ```
+
 Here is an explanation of the above code:
+
 1. Convert the `AnalysisImage` to an `InputImage` with `toInputImage()`,a function from an extension that we'll detail later.
 2. Process the image with the `BarcodeScanner` and get the barcodes.
 3. Loop through the barcodes.
@@ -86,7 +89,7 @@ Here is an explanation of the above code:
 The extension function `toInputImage()` is the following:
 
 ```dart
-import 'package:camerawesome/camerawesome_plugin.dart';
+import 'package:camerawesome_seyi/camerawesome_plugin.dart';
 import 'package:google_mlkit_face_detection/google_mlkit_face_detection.dart';
 
 extension MLKitUtils on AnalysisImage {
@@ -116,7 +119,7 @@ extension MLKitUtils on AnalysisImage {
         ),
       );
     }, bgra8888: (image) {
-      // 4. 
+      // 4.
       final inputImageData = InputImageData(
         size: size,
         imageRotation: inputImageRotation,
@@ -149,6 +152,7 @@ extension MLKitUtils on AnalysisImage {
 ```
 
 Let's break down this extension function:
+
 1. Get the planes from the `AnalysisImage` and map them to `InputImagePlaneMetadata`.
 2. Use the `when()` function to handle both Android and iOS cases.
 3. Convert the `Nv21Image` to MLKit's `InputImage`
@@ -449,7 +453,7 @@ Let's see the code:
 5. We check if the center of the barcode is within the scan area.
 6. If a barcode is within the scan area, we update the state to show it.
 
-To help you converting an analysis image to the preview coordinates we provides functions. 
+To help you converting an analysis image to the preview coordinates we provides functions.
 
 ```dart
 /// this method is used to convert a point from an image to the preview
@@ -461,8 +465,9 @@ Offset convertFromImage(
 );
 ```
 
-The AnalysisImage also provide you the required transformation 
+The AnalysisImage also provide you the required transformation
 (It seems that the 180 / 270 cases are not working on all phones right now)
+
 ```dart
 abstract class AnalysisImage {
     ...
@@ -473,8 +478,7 @@ abstract class AnalysisImage {
   );
 ```
 
-With those two functions you can just draw your points without doing any math. 
-
+With those two functions you can just draw your points without doing any math.
 
 ### From MLKit coordinates to screen coordinates
 
@@ -560,6 +564,7 @@ _croppedPosition(
   ...
 ).translate(-widget.previewRect.left, -widget.previewRect.top)
 ```
+
 The translate value matches the left and top padding we've set.
 
 You can find the complete example of this demo in `preview_overlay_example.dart`.

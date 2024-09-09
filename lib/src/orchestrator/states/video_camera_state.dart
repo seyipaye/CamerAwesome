@@ -1,8 +1,8 @@
 import 'dart:ui';
 
-import 'package:camerawesome/camerawesome_plugin.dart';
-import 'package:camerawesome/pigeon.dart';
-import 'package:camerawesome/src/orchestrator/camera_context.dart';
+import 'package:camerawesome_seyi/camerawesome_plugin.dart';
+import 'package:camerawesome_seyi/pigeon.dart';
+import 'package:camerawesome_seyi/src/orchestrator/camera_context.dart';
 import 'package:collection/collection.dart';
 
 /// When Camera is in Video mode

@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:camerawesome/camerawesome_plugin.dart';
-import 'package:camerawesome/src/widgets/filters/awesome_filter_name_indicator.dart';
-import 'package:camerawesome/src/widgets/filters/awesome_filter_selector.dart';
+import 'package:camerawesome_seyi/camerawesome_plugin.dart';
+import 'package:camerawesome_seyi/src/widgets/filters/awesome_filter_name_indicator.dart';
+import 'package:camerawesome_seyi/src/widgets/filters/awesome_filter_selector.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 

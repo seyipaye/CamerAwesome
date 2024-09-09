@@ -1,10 +1,10 @@
 import 'dart:async';
 
-import 'package:camerawesome/pigeon.dart';
+import 'package:camerawesome_seyi/pigeon.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
-import 'package:camerawesome/src/widgets/preview/awesome_focus_indicator.dart';
+import 'package:camerawesome_seyi/src/widgets/preview/awesome_focus_indicator.dart';
 
 Widget _awesomeFocusBuilder(Offset tapPosition) {
   return AwesomeFocusIndicator(position: tapPosition);

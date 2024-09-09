@@ -2,7 +2,7 @@ import 'dart:io';
 import 'dart:math';
 
 import 'package:camera_app/utils/file_utils.dart';
-import 'package:camerawesome/camerawesome_plugin.dart';
+import 'package:camerawesome_seyi/camerawesome_plugin.dart';
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 

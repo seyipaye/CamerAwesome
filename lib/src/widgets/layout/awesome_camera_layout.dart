@@ -2,14 +2,14 @@
 
 import 'dart:io';
 
-import 'package:camerawesome/src/orchestrator/models/capture_modes.dart';
-import 'package:camerawesome/src/orchestrator/states/states.dart';
-import 'package:camerawesome/src/widgets/awesome_camera_mode_selector.dart';
-import 'package:camerawesome/src/widgets/camera_awesome_builder.dart';
-import 'package:camerawesome/src/widgets/filters/awesome_filter_widget.dart';
-import 'package:camerawesome/src/widgets/layout/layout.dart';
-import 'package:camerawesome/src/widgets/utils/awesome_theme.dart';
-import 'package:camerawesome/src/widgets/zoom/awesome_zoom_selector.dart';
+import 'package:camerawesome_seyi/src/orchestrator/models/capture_modes.dart';
+import 'package:camerawesome_seyi/src/orchestrator/states/states.dart';
+import 'package:camerawesome_seyi/src/widgets/awesome_camera_mode_selector.dart';
+import 'package:camerawesome_seyi/src/widgets/camera_awesome_builder.dart';
+import 'package:camerawesome_seyi/src/widgets/filters/awesome_filter_widget.dart';
+import 'package:camerawesome_seyi/src/widgets/layout/layout.dart';
+import 'package:camerawesome_seyi/src/widgets/utils/awesome_theme.dart';
+import 'package:camerawesome_seyi/src/widgets/zoom/awesome_zoom_selector.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 

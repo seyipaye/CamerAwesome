@@ -1,9 +1,9 @@
 import 'dart:io';
 
-import 'package:camerawesome/src/orchestrator/file/builder/capture_request_builder.dart';
-import 'package:camerawesome/src/orchestrator/models/capture_modes.dart';
-import 'package:camerawesome/src/orchestrator/models/capture_request.dart';
-import 'package:camerawesome/src/orchestrator/models/sensors.dart';
+import 'package:camerawesome_seyi/src/orchestrator/file/builder/capture_request_builder.dart';
+import 'package:camerawesome_seyi/src/orchestrator/models/capture_modes.dart';
+import 'package:camerawesome_seyi/src/orchestrator/models/capture_request.dart';
+import 'package:camerawesome_seyi/src/orchestrator/models/sensors.dart';
 import 'package:path_provider/path_provider.dart';
 
 class CaptureRequestBuilderImpl extends BaseCaptureRequestBuilder {

@@ -4,8 +4,8 @@ import 'dart:async';
 import 'dart:io';
 import 'dart:ui';
 
-import 'package:camerawesome/camerawesome_plugin.dart';
-import 'package:camerawesome/pigeon.dart';
+import 'package:camerawesome_seyi/camerawesome_plugin.dart';
+import 'package:camerawesome_seyi/pigeon.dart';
 import 'package:rxdart/rxdart.dart';
 
 /// This class handle the current state of the camera

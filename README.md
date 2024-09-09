@@ -86,11 +86,11 @@ Here's all native features that cameraAwesome provides to the flutter side.
 | 🧪 Image analysis (barcode scan & more.) |   ✅    | ✅  |
 | 👁 Zoom                                   |   ✅    | ✅  |
 | 📸 Device flash support                  |   ✅    | ✅  |
-| ⌛️ Auto focus                            |   ✅    | ✅  |
+| ⌛️ Auto focus                           |   ✅    | ✅  |
 | 📲 Live switching camera                 |   ✅    | ✅  |
-| 😵‍💫 Camera rotation stream              |   ✅    | ✅  |
+| 😵‍💫 Camera rotation stream                |   ✅    | ✅  |
 | 🤐 Background auto stop                  |   ✅    | ✅  |
-| 🔀 Sensor type switching                 |   ⛔️    | ✅  |
+| 🔀 Sensor type switching                 |   ⛔️   | ✅  |
 | 🪞 Enable/disable front camera mirroring |   ✅    | ✅  |
 
 ---
@@ -198,7 +198,7 @@ java.lang.IncompatibleClassChangeError: Found interface com.google.android.gms.l
 ### Import the package in your Flutter app
 
 ```dart
-import 'package:camerawesome/camerawesome_plugin.dart';
+import 'package:camerawesome_seyi/camerawesome_plugin.dart';
 ```
 
 ---

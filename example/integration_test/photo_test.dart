@@ -2,7 +2,7 @@
 import 'dart:io';
 
 import 'package:camera_app/drivable_camera.dart';
-import 'package:camerawesome/camerawesome_plugin.dart';
+import 'package:camerawesome_seyi/camerawesome_plugin.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'common.dart';

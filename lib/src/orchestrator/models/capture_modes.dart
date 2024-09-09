@@ -1,5 +1,5 @@
-import 'package:camerawesome/camerawesome_plugin.dart';
-import 'package:camerawesome/src/orchestrator/camera_context.dart';
+import 'package:camerawesome_seyi/camerawesome_plugin.dart';
+import 'package:camerawesome_seyi/src/orchestrator/camera_context.dart';
 
 enum CaptureMode {
   photo,
