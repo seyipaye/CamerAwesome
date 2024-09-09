@@ -24,7 +24,7 @@ class AwesomeFilterSelector extends StatefulWidget {
 }
 
 class _AwesomeFilterSelectorState extends State<AwesomeFilterSelector> {
-  final CarouselSliderController _controller = CarouselSliderController();
+  final carousel.CarouselController _controller = carousel.CarouselController();
   int? _textureId;
   int _selected = 0;
 
@@ -53,8 +53,8 @@ class _AwesomeFilterSelectorState extends State<AwesomeFilterSelector> {
         color: widget.filterListBackgroundColor,
         child: Stack(
           children: [
-            CarouselSlider(
-              options: CarouselOptions(
+            carousel.CarouselSlider(
+              options: carousel.CarouselOptions(
                 height: 60.0,
                 initialPage: _selected,
                 onPageChanged: (index, reason) {
